@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Test_CTA_trend_daily_signal_v7.py
-
-V7 = V6 + sector vol uses w_i = min(|raw_weight|, |weight_capped|) with original sign.
-Constant intra-sector correlation rho (default 0.7).
+"""Test_CTA_trend_daily_signal.py
 
 Outputs:
 - positions sheet includes `w_for_sector_vol` (the w_i used in sector vol).
