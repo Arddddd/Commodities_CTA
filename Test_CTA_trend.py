@@ -349,7 +349,7 @@ if __name__ == "__main__":
     position_frequency = 'week'
 
     price_table = pd.read_csv(
-        r'D:\我的坚果云\1YF\my py\日参考模型\日频更新数据\日频趋势' + asset_name + '板块数据.csv', index_col=0,
+        r'日频更新数据\日频趋势' + asset_name + '板块数据.csv', index_col=0,
         parse_dates=True)
     hold_dates = position_date(price_table, vPeriod=position_frequency)
 
@@ -489,3 +489,4 @@ prices  →  t_stat_mom
 raw_mom / t_stat_mom / any_signal
         →  tanh_zscore_signal
 '''
+
