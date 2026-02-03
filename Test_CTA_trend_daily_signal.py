@@ -315,7 +315,7 @@ if __name__ == "__main__":
                                   .copy())
     sector_indices.columns = [asset_name]  # 这个列名必须与 sector_to_prices 的 key 对上
     sector_to_prices = {asset_name: chem.iloc[:, 1:].copy()}
-    describe = pd.read_excel(r'D:\我的坚果云\1YF\my py\商品趋势\南华测试.xlsx', sheet_name="描述")
+    describe = pd.read_excel(r'南华测试.xlsx', sheet_name="描述")
     lookback = 5
     cfg = V7Config(
         LOOKBACK=lookback,  # t-stat 回看窗口
